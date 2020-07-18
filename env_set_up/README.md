@@ -6,3 +6,8 @@ https://www.liwenzhou.com/posts/Go/how_to_deploy_go_app_using_docker/
 
 3. docker (python + django + nginx sample)
 https://blog.csdn.net/qq_25639809/article/details/78958647
+
+
+Problems:
+
+virtualbox need to forward the port to mac (host), using virtualbox manager ui -> running default -> network -> advance -> portfowrding. 
