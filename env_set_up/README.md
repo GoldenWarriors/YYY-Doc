@@ -13,6 +13,7 @@ Problems:
 virtualbox need to forward the port to mac (host), using virtualbox manager ui -> running default -> network -> advance -> portfowrding. 
 
 Debug on docker container:
+
 eval "$(docker-machine env default)" # optional for virtual box user, this is needed even when a new terminal window is opened
 docker ps  # find out the container you want to ssh into
 docker exec -it docker_compose_mysql_1 /bin/bash  #ssh into docker
