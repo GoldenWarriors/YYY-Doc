@@ -1,0 +1,9 @@
+Install:
+brew install mysql
+
+start / stop server:
+mysql.server start / stop
+
+cd YYY/configs/mysql
+mysql -u root -p
+in mysql: source init.sql
